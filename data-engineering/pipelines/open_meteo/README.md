@@ -16,3 +16,7 @@ Open-Meteo API → ingestion script → raw CSV → cleaning script → cleaned 
 
 ## Purpose
 To test weather data ingestion and preprocessing for the FireFusion MVP pipeline.
+
+## Next Steps
+- Integration with shared database (Supabase/PostgreSQL)
+- Backend API connectivity
