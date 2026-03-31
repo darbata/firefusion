@@ -3,7 +3,7 @@ import numpy as np
 
 
 class ModelService:
-    def __init__(self, model_path: str = "model.pkl"):
+    def __init__(self, model_path: str = "./app/models/model.pkl"):
         self.model = joblib.load(model_path)
 
     async def predict(self, features: list[float]) -> float:
