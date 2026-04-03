@@ -25,6 +25,8 @@ The time period of the dataset can be easily expanded with larger raw NASA expor
 
 All files can be downloaded from https://firms.modaps.eosdis.nasa.gov/download. This script can work with any provided time period that the above satellite detections exist for.
 
+To use the script, download the above raw NASA exports, place the downloaded data into the data folder inside `historic_fire_events_dataset`, and ensure the correct naming convention.
+
 ## Outputs
 
 - `satellite_fire_data.csv` – Gridded, feature-engineered time-series dataset

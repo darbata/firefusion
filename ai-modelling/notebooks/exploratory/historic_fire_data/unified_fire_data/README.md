@@ -16,8 +16,10 @@ The final dataset covers Victoria, Australia, with a buffer to ensure detection 
 
 ## Inputs
 
-- `viirs_historic_fires.csv` – Gridded, time-series satellite (VIIRS, MODIS) thermal detections with lat/lon, datetime, confidence, FRP, and spread information - output from: `..\satellite_fire_data\satellite_data_processing.ipynb`
-- `historic_fire_extents.csv` – Ground-Truth Bushfire polygon boundaries with ignition dates, final burn size, fire meta data, and final fire shape - output from: `..\historic_fire_events_data\historic_fire_data_processing.ipynb`
+- `viirs_historic_fires.csv` – Gridded, time-series satellite (VIIRS, MODIS) thermal detections with lat/lon, datetime, confidence, FRP, and spread information - output from: `..\satellite_fire_data\satellite_data_processing.py`
+- `historic_fire_extents.csv` – Ground-Truth Bushfire polygon boundaries with ignition dates, final burn size, fire meta data, and final fire shape - output from: `..\historic_fire_events_data\historic_fire_data_processing.py`
+
+To use this script, ensure that the above outputs exist in there working folder.
 
 ## Outputs
 
