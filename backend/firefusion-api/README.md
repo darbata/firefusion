@@ -5,9 +5,11 @@ Bushfire risk forecast API serving GeoJSON predictions over REST and WebSocket.
 ## Endpoints
 
 `GET /api/bushfire-forecast`
+
 Returns the current forecast as a GeoJSON `FeatureCollection`.
 
 `WebSocket /api/ws`
+
 Persistent connection for real-time forecast pushes. API is push only and no client messages expected. Broadcasts the same `FeatureCollection` payload as the REST endpoint when new predictions are broadcasted.
 
 ## Response Schema
